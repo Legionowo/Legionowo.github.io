@@ -1,0 +1,157 @@
+<html lang="es">
+  <title>
+      Proyecto STEM
+  </title>
+  <body background="https://previews.123rf.com/images/iloveotto/iloveotto1407/iloveotto140700767/30073982-grandes-texturas-fondos-grunge-fondo-perfecto-con-el-espacio.jpg">
+
+  
+  <meta charset="UTF-8">
+  <meta name="keywords" content="PC,Hardware">
+  <link href="css/general.css" rel="stylesheet" type="text/css"/>
+  <link href="css/principal.css" rel="stylesheet" type="text/css"/>
+  <header>
+      <img id="tituloImangen" src="https://www.lahoradigital.com/images/thumbs/ESPAATRASPLANTES.jpg-0003460.jpeg" style="width:200px;height:200px" alt="imagen">
+      <input id="tituloTexto" type="search" placeholder="Buscar">
+      <img id="imagenPerfil" src="data:image/png;base64,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" alt="logo"> 
+      <img id="imagenCorreo" src="https://d500.epimg.net/cincodias/imagenes/2014/11/22/lifestyle/1416651327_858111_1416651500_noticia_normal.jpg" style="width:200px;height:200px" alt="correo"> 
+      <img id="imagenCorreo" src="https://i.ytimg.com/vi/E35YTQ_AUy8/maxresdefault.jpg " style="width:30px;height:30px"
+    </header>
+  <nav class = "navegacion">
+      <ul class = "lista">
+          <li><a href=https://www.paho.org/es/temas/donacion-trasplantes> OPS</a></li>
+          <li><a href=https://www.salud.gob.ec/medicos-ecuatorianos-realizaron-con-exito-primer-trasplante-reno-pancreatico/ > MSP</a></li>
+          <li><a href=http://www.donaciontrasplante.gob.ec/indot/#search > IND</a></li>
+          <li><a href=https://www.salud.gob.ec/el-ecuador-dice-si-a-la-donacion-de-organos-y-tejidos/ >EDO</a></li>
+          <li><a href=https://www.ecuadorencifras.gob.ec/salud/ >INEC</a></li>
+          <li><a href=https://www.saludsa.com >SALUDSA</a></li>
+          <li><a href=https://www.salud.gob.ec>MSP</a></li>
+          <li><a href=https://medlineplus.gov/spanish/organdonation.html>MedlinePlus</a></li>
+          </ul>
+  </nav>
+  <section id = "sectionHardware">
+      <h1 hidden> Introduccion al Hardware </h1>
+      <article class = "articleHardware">
+          <h2> ¿Qué es la donación de órganos? </h2>
+          <p> <h1> La donación de órganos es la remoción de órganos o tejidos del cuerpo de una persona que ha muerto recientemente o de un donante vivo, con el propósito de realizar un trasplante. Los órganos y los tejidos son extirpados en procedimientos similares a la cirugía. Personas de todas las edades pueden ser donantes de órganos y tejidos. Se producen muchas más donaciones de donantes muertos que de personas vivas. Las leyes de los diferentes países permiten que donantes potenciales acepten o se nieguen a la donación o bien otorgan la elección a los familiares, que no siempre conocen los factores de riesgo del fallecido y que puede dar lugar a un mayor riesgo de contagio de enfermedades infecciosas a pacientes más críticos, que dispondrían de menos de 12 horas para dar el visto bueno a esta decisión. La popularidad de las donaciones varía sustancialmente entre diferentes países y culturas.
+
+            Desde mediados de los años 1970, la bioética, un área relativamente nueva de la ética, se ha convertido en la vanguardia de la ciencia clínica moderna. Muchos argumentos filosóficos contra la donación de órganos provienen de este campo. Generalmente, los argumentos se originan en consideraciones éticas deontológicas o teleológicas. El 2 de julio de 2012, la organización de trasplantes anunció un sorprendente récord en España y Puerto Rico, 22 riñones, 11 hígados, y 3 pulmones encontraron una segunda vida en veinticuatro horas.</h1> </p>
+          <input id= "boton1" type="submit" value="Me gusta">
+          <input id= "boton2" type="submit" value="No me gusta">
+      </article>
+      <aside class="asideVideo">
+          <iframe id="video"
+          src="https://www.youtube.com/embed/oJfc7sRWKBg"style="width:500px;height:300px"></iframe> 
+      </aside>
+  </section>
+  <section id =  "sectionNoticias">
+      <h1> NOTICIAS </h1>
+      <article class = "articleNoticia">
+          <h3 hidden></h3>
+          <cite> <h2>¿Es segura la donación de órganos de pacientes positivos a la COVID-19?</cite></h2>
+      </article>
+      <article class = "articleNoticia">
+          <h3 hidden>IBM</h3>
+          <cite> <h3>Una nueva investigación preliminar, presentada en el Congreso Europeo de Microbiología Clínica y Enfermedades Infecciosas, afirma que la donación de órganos de personas que habían dado positivo en la prueba del SARS-COV-2, parece ser segura y no causa COVID-19 en el paciente receptor.</h3>
+          </cite>
+      </article>
+      <article class = "articleNoticia">
+          <h3 hidden>GOLBAL</h3>
+          <cite> <h2>¿Dónde donar órganos en Ecuador?</cite></h2>
+      </article>
+      <article class = "articleNoticia">
+          <h3 hidden>ASUS</h3>
+          <cite>
+            <h3>
+            QUITO
+            Yaguachi E6-68 y Numa Pompillo Llona Barrio “El Dorado”
+            Teléfono: (593) 2 2 546 129 / 02 2 232 429 / 02 2 904 023 /02 2 550 505
+            
+            GUAYAQUIL
+            
+            Av. 25 de Julio y Ernesto Albán Hospital de Especialidades Teodoro Maldonado Carbo Junto al área de Emergencia
+            Teléfono: (593) 42- 438223 / 042-438070
+            
+            CUENCA
+            
+            Calle Octavio Chacón y Carlos Tosi Edificio CENAPIC Sector Parque Industrial
+            Telfs: (593) 72 863 304
+            Correos</h3>
+          </cite>
+      </article>
+      <article class = "articleNoticia">
+          <h3 hidden>NVIDIA</h3>
+          <cite> <h2>¿Cuáles son los tipos de donaciones de órganos? </h2></cite>
+      </article>
+      <article class = "articleNoticia">
+          <h3 hidden>INTEL</h3>
+          <cite><h3>
+            TRASPLANTES DE ORGANOS CON DONANTES CADAVÉRICOS.
+
+            Tabla 5. Trasplantes de órganos con donantes cadavéricos en los últimos 8 años.
+
+            RENAL CON DONANTE CADAVERICO.
+
+            HEPATICO CON DONANTE CADAVERICO.
+
+            CARDIACO CON DONANTE CADAVERICO.
+
+            PANCREATICO.
+
+            RENOPANCREATICO.
+
+            TOTAL. </h3></cite>
+      </article>
+      <input id= "boton3" type="submit" value="Actualizar">
+  </section>
+  <section id = "sectionValoracion">
+      <h1> VALORACIONES </h1>
+      <article class="articleValoracion">
+          <h2 hidden> Valoracion </h2>
+          <div class= "divImagen">
+              <img id="imagenValoracion" src="https://as01.epimg.net/deporteyvida/imagenes/2018/06/13/portada/1528885581_861557_1528886544_noticia_normal.jpg"style="width:200px;height:200px" alt="perfil"> 
+          </div>
+          <div class="estrellas">
+              <a data-value="1">&#9733;</a>
+              <a data-value="2">&#9733;</a>
+              <a data-value="3">&#9733;</a>
+              <a data-value="4">&#9733;</a>
+              <a data-value="5">&#9733;</a>
+          </div>
+      </article>
+      <aside class="asideValoracion">
+          <p><i> <h2>La donación de órganos es la prueba palpable de que existe vida después de la muerte... </h2> </i></p>
+      </aside>
+  </section>
+  <footer>
+      <!-- <hr class="separator"> -->
+      <div id = "footerInfo">
+          <div id = "divImage1">
+              <img id="imagenFacebook" src="https://img.utdstc.com/icon/fe0/ab6/fe0ab67fa0de2b2681602db5708a076f50dd21106e0c2d38b9661875a37e235e:200"style="width:100px;height:100px" alt="facebook">
+              <img id="imagenInstagram" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKg1eqCdOKS89fiKdGSxu3tLqyFFZnGNgCO43ODZIFW8ld--cCklsj6tJUavwCH_K9cI&usqp=CAU" style="width:100px;height:100px" alt="instagram">
+          </div>
+          <div id = "divImage2">
+              <img id="imagenContacto" src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN"style="width:100px;height:100px" alt="contacto">
+          </div>
+          <div id = "divCopy">
+              &copy; Todos los derechos reservados
+          </div>
+      </div>
+      <div id = "footerContacto">
+          <form>
+              <fieldset>
+                  <legend> Quien Soy </legend>
+                      <label class="labelContacto"> Marco Andres Barros </label>
+                      <label class="labelContacto">  <a href=""> 
+                       </a> </label>
+                      <label class="labelContacto"> Telefono: <a href="https://web.whatsapp.com"> 
+                          0998572267 </a> </label>
+                          <label class="labelContacto"> Santo Domingo De Guzmán Documento del proyecto STEM <a href="file:///C:/Users/marco/OneDrive/Escritorio/PROYECTO-STEAM.pdf"> Documento</a></label>
+              </fieldset>
+          </form>
+      </div>
+      <div id = "footerLocalizacion">
+        <iframe id = "localizacion"
+        src="https://maps.google.com/?ll=-2.8903823428792217, -78.7812584893362&z=16&output=embed"></iframe>
+      </div>
+  </footer>
+</html>
